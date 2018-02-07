@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>主页</h1>
+    <h1>主页 </h1>
     <h4>{{ msg }}</h4>
     <ul>
       <li class="active">主页</li>
