@@ -4,6 +4,9 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+//引入重置样式文件
+import 'normalize.css/normalize.css'
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

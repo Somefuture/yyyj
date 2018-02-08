@@ -14,7 +14,7 @@
     name: 'Home',
     data () {
       return {
-        msg: 'Welcome to HomePage'
+        msg: '这里是首页233'
       }
     },
     components:{

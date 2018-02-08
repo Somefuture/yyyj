@@ -1,0 +1,24 @@
+
+//底部导航栏
+@import "~bootstrap/scss/nav";
+
+ul.ec-footer{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  font-size:0;
+  li{
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    width: 25%;
+    background: $footer-guide-color;
+    text-align: center;
+    @include foot-font;
+  }
+  li.active{
+    background: $footer-guide-color-active;
+  }
+}

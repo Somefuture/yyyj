@@ -1,0 +1,14 @@
+//所有页面样式文件合集
+
+//bootstrap 文件引入
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+//样式配置文件引入
+@import "variable/color";
+@import "variable/font";
+
+//底部导航栏
+@import "reset";
+@import "nav/footer";
