@@ -2,6 +2,11 @@
 
 //页脚字体
 @mixin foot-font{
-  font-size: 18px;
-  color: #8d363b;
+  font-size: 24px;
+  color: #535353;
+}
+
+@mixin head-font{
+  font-size: 36px;
+  color: white;
 }

@@ -4,8 +4,12 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+
 //引入重置样式文件
 import 'normalize.css/normalize.css'
+
+//引入样式文件
+import '@/style/ui.scss'
 
 Vue.config.productionTip = false
 
@@ -15,4 +19,4 @@ new Vue({
   router,
   components: { App },
   template: '<App/>'
-})
+});

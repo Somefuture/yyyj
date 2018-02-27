@@ -1,5 +1,8 @@
 //所有页面样式文件合集
 
+//样式重置
+@import "reset";
+
 //bootstrap 文件引入
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
@@ -10,5 +13,6 @@
 @import "variable/font";
 
 //底部导航栏
-@import "reset";
 @import "nav/footer";
+//标题栏
+@import "nav/home-header";

@@ -1,28 +1,24 @@
 <template>
   <div>
-    <h1>{{ msg }}</h1>
-    <div>
-      <foot-guide></foot-guide>
-    </div>
+    <home-head :title="title"></home-head>
+    <foot-guide></foot-guide>
   </div>
 </template>
 
 <script>
-  import FootGuide from '../../components/footer/FootGuide'
+  import FootGuide from '@/components/footer/FootGuide'
+  import HomeHead from '@/components/header/HomeHead'
 
   export default {
     name: 'Home',
     data () {
       return {
-        msg: '这里是首页233'
+        title:'健康，才是一辈子的事业'
       }
     },
     components:{
-      FootGuide
+      FootGuide,
+      HomeHead
     }
   }
 </script>
-
-<style lang="scss" type="text/scss">
-
-</style>
